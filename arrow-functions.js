@@ -30,3 +30,10 @@ saySomething('Hello there!!');
 const sayHello = () => console.log('hello');
 
 // Returning Multiple Lines
+
+const returnMultipleLines = () => (
+    `<p>
+        This is a multiline string!
+    </p>`
+)
+console.log(returnMultipleLines);
