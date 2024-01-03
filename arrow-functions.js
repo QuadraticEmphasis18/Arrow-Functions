@@ -28,6 +28,7 @@ const saySomething = message => console.log(message);
 saySomething('Hello there!!');
 
 const sayHello = () => console.log('hello');
+sayHello();
 
 // Returning Multiple Lines
 
@@ -36,4 +37,4 @@ const returnMultipleLines = () => (
         This is a multiline string!
     </p>`
 )
-console.log(returnMultipleLines);
+console.log(returnMultipleLines());
